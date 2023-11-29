@@ -1,5 +1,14 @@
 # AutowareFoxgloveConverter
 
+Special thanks to [https://github.com/KhalilSelyan/predictedObjectConverter](https://github.com/KhalilSelyan/predictedObjectConverter) for the inspiration and the code to get started.
+
+Currently supported message types:
+- [autoware_auto_perception_msgs::msg::DetectedObjects](https://github.com/tier4/autoware_auto_msgs/blob/tier4/main/autoware_auto_perception_msgs/msg/DetectedObjects.idl)
+- [autoware_auto_perception_msgs::msg::TrackedObjects](https://github.com/tier4/autoware_auto_msgs/blob/tier4/main/autoware_auto_perception_msgs/msg/TrackedObjects.idl)
+- [autoware_auto_perception_msgs::msg::PredictedObjects](https://github.com/tier4/autoware_auto_msgs/blob/tier4/main/autoware_auto_perception_msgs/msg/PredictedObjects.idl)
+
+Note that this repository may not be maintained and thus the destructive changes on the above ROS 2 messages may not be reflected here.
+
 ## _A Foxglove Studio Extension_
 
 [Foxglove Studio](https://github.com/foxglove/studio) allows developers to create extensions, or custom code that is loaded and executed inside the Foxglove Studio application. This can be used to add custom panels. Extensions are authored in TypeScript using the `@foxglove/studio` SDK.
